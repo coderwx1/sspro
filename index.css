@@ -1,0 +1,25 @@
+@import url(./src/assets/font.css);
+
+html {
+
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    PingFang SC,
+    Hiragino Sans GB,
+    HarmonyOS_Medium,
+    Arial,
+    Microsoft YaHei,
+    Helvetica Neue,
+    Helvetica,
+    sans-serif;
+  background-color: #f7f8fa;
+
+}
+
+html,
+body,
+#app {
+  width: 375px;
+  height: 100%;
+
+}
