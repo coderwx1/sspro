@@ -124,15 +124,14 @@ p {
   margin-bottom: 15px;
 }
 
-p::before{
-  content: '';
+p::before {
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
 
   background-color: black;
   border-radius: 50%;
-
 }
 hr {
   border: none;
@@ -146,8 +145,9 @@ hr {
   width: 100%;
   padding: 15px;
   font-size: 13px;
-color:rgb(66, 185, 131);
+  color: rgb(66, 185, 131);
   background-color: #f8f8f8;
+  margin: 10px 0;
 }
 .source-wrapper {
   margin-bottom: 20px;
