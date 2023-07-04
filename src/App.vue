@@ -18,7 +18,7 @@
           <hr />
           <div class="source-wrapper">
             <span class="source-content">
-              note 1 来源：《学好数学并不难》上册 第七章
+              note 1 来源：《学好数学并不难》上册 第七章 第四节
               减法和除法的独特优势：三个共同点
             </span>
           </div>
@@ -45,7 +45,7 @@
           <hr />
           <div class="source-wrapper">
             <span class="source-content">
-              note 2 来源：《学好数学并不难》上册 第十章
+              note 2 来源：《学好数学并不难》上册 第十章 第二节
               同底数幂的乘除：四个运算规则
             </span>
           </div>
@@ -93,7 +93,7 @@
           <hr />
           <div class="source-wrapper">
             <span class="source-content">
-              note 3 来源：《学好数学并不难》上册 第十章
+              note 3 来源：《学好数学并不难》上册 第十章 第三节
               幂的乘方：商的幂等于幂的商
             </span>
           </div>
