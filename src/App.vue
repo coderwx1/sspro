@@ -3,7 +3,7 @@
     <div class="note-wrapper">
       <ul>
         <li>
-          <h2>note 1</h2>
+          <h2>Note 1</h2>
           <div>
             <p >
               第一、对于减法而言，减数和被减数翻转以后，得到的新的差和原来的差是互为相反数的。与之对应，在除法当中，如果除数和被除数的位置颠倒了，得到的商和原来的商就互为倒数。<br />
@@ -18,14 +18,14 @@
           <hr />
           <div class="source-wrapper">
             <span class="source-content">
-              note 1 来源：《学好数学并不难》上册 第七章 第四节
+              Note 1 来源：《学好数学并不难》上册 第七章 第四节
               减法和除法的独特优势：三个共同点
             </span>
           </div>
         </li>
 
         <li>
-          <h2>note 2</h2>
+          <h2>Note 2</h2>
           <div>
             <p>
               同底数幂相乘，底数不变，指数相加。
@@ -36,7 +36,8 @@
               <span class="formula"> 公式：\(a^m \ ÷ \ a^n \ = \ a^{m-n} \) </span>
             </p>
             <p>
-              当指数是负数的时候，结果等于正数幂的倒数。</p>
+              当指数是负数的时候，结果等于正数幂的倒数。
+            </p>
             <p>
               任何数的1次方都等于它自己，而除了0以外的任何数的0次方都等于1。
             </p>
@@ -45,14 +46,14 @@
           <hr />
           <div class="source-wrapper">
             <span class="source-content">
-              note 2 来源：《学好数学并不难》上册 第十章 第二节
+              Note 2 来源：《学好数学并不难》上册 第十章 第二节
               同底数幂的乘除：四个运算规则
             </span>
           </div>
         </li>
 
         <li>
-          <h2>note 3</h2>
+          <h2>Note 3</h2>
           <div>
             <p>
               同指数的幂相乘，指数不变，底数相乘。<br />
@@ -62,27 +63,23 @@
               </span>
               <br />
               <span class="example">
-                例题：\((2x)^4 = ? \)，因为2x
-                是2和x的乘积，积的幂等于幂的积，因此\((2x)^4 = 2^4 × x^4 \)
-                ，由于2的4次方等于16，因此结果为\(16x^4 \)。
+                例题：\((2x)^4 = ? \)，因为2\(x\)是2和\(x\)的乘积，积的幂等于幂的积，因此\((2x)^4 = 2^4 × x^4 \)，由于2的4次方等于16，因此结果为\(16x^4 \)。
               </span>
             </p>
             <p>
-              商的幂等于幂的商<br />
+              商的幂等于幂的商。<br />
               <span class="example">
-           
-                例题：\( ({3 \over x }) ^2 \)
-                此题处理的是分数的乘方，商的幂等于幂的商，直接把2次方扔到分子分母上，得到
-                \(3^2 \div x^2 = 9 \div x^2 \)
+                例题：<i class="fraction-fz">\( ({3 \over x }) ^2 \)，</i> 此题处理的是分数的乘方，商的幂等于幂的商，直接把2次方扔到分子分母上，得到: 
+                <i class="fraction-fz">
+                  \({3^2 \over x^2} = {9 \over x^2} \)
+                </i>
               </span>
             </p>
             <p>
               幂的乘方，底数不变，指数相乘。<br />
               <span class="formula"> 公式：\((a^m)^n ＝ \ a^{mn}\) </span> <br />
               <span class="example">
-                例题：\((4y^2)^3 \ = \ ? \)，解决问题的关键是要把系数4搞清楚，要知道 \( \ 4y^2 \ = \ 4 × y × y \)
-                ，所以y的指数2，这个2是y
-                自我相乘的次数，跟系数4 没关系，但是整个算式的3次方，既是4的3次方，也是 \(y^2\)
+                例题：\((4y^2)^3 \ = \ ? \)，解决问题的关键是要把系数4搞清楚，要知道 \( \ 4y^2 \ = \ 4 × y × y \)，所以y的指数2，这个2是y自我相乘的次数，跟系数4 没关系，但是整个算式的3次方，既是4的3次方，也是 \(y^2\)
                 的3次方，整个算式符合积的幂的运算法则，因此原式等于\(4^3 × (y^2)^3 \) ，后者符合幂的乘方法则，指数相乘得到\(4^3 × y^{2×3}\)
                 ，进一步化简，得到\(64y^6\)。
               </span>
@@ -92,7 +89,7 @@
           <hr />
           <div class="source-wrapper">
             <span class="source-content">
-              note 3 来源：《学好数学并不难》上册 第十章 第三节
+              Note 3 来源：《学好数学并不难》上册 第十章 第三节
               幂的乘方：商的幂等于幂的商
             </span>
           </div>
@@ -101,10 +98,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { ref } from "vue";
-</script>
 
 <style scoped>
 .app {
@@ -119,12 +112,12 @@ import { ref } from "vue";
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 26px;
   /* rgb(247, 17, 93) */
   color: rgb(238, 32, 101);
   padding: 0 0 6px 0;
   margin-bottom: 15px;
-  border-bottom: 3px solid rgb(226, 79, 128);
+  border-bottom: 3px solid rgb(245, 55, 118);
 }
 p {
   font-size: 16px;
@@ -136,7 +129,6 @@ p::before {
   display: inline-block;
   width: 10px;
   height: 10px;
-
   background-color: black;
   border-radius: 50%;
 }
@@ -155,6 +147,9 @@ hr {
   color: rgb(66, 185, 131);
   background-color: #f8f8f8;
   margin: 10px 0;
+}
+.fraction-fz{
+  font-size: 19px;
 }
 .example {
   display: inline-block;
