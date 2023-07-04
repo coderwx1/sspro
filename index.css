@@ -21,5 +21,6 @@ body,
 #app {
   width: 375px;
   height: 100%;
+  overflow: hidden;
 
 }

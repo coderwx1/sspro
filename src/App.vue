@@ -28,14 +28,15 @@
           <h2>note 2</h2>
           <div>
             <p>
-              同底数幂相乘，底数不变，指数相加。<br />
-              <span class="example"> 示例：a^m × a^n ＝a^m ＋ n </span>
+              同底数幂相乘，底数不变，指数相加。
+              <span class="formula"> 公式：a^m × a^n ＝a^m ＋ n </span>
             </p>
             <p>
               同底数的幂相除，底数不变，指数相减。<br />
-              <span class="example"> 示例：a^m ÷a^n ＝a^m － n </span>
+              <span class="formula"> 公式：a^m ÷a^n ＝a^m － n </span>
             </p>
-            <p>当指数是负数的时候，结果等于正数幂的倒数。</p>
+            <p>
+              当指数是负数的时候，结果等于正数幂的倒数。</p>
             <p>
               任何数的1次方都等于它自己，而除了0以外的任何数的0次方都等于1。
             </p>
@@ -55,23 +56,30 @@
           <div>
             <p>
               同指数的幂相乘，指数不变，底数相乘。<br />
-              <span class="example"> 示例：a^n × b^n ＝（ab ）^n </span> <br />
-              由于乘方的结果叫幂，相乘的结果叫积，因此这个口诀也被简称为幂的积等于积的幂，同理，积的幂也等于幂的积。<br />
-              比如：（2x）^4 ＝？因为2x
-              是2和x的乘积，积的幂等于幂的积，因此（2x）^4 ＝2^4 × x^4
-              ，由于2的4次方等于16，因此结果为16x 4。<br />
+              <span class="formula"> 公式：a^n × b^n ＝（ab ）^n </span>
+              <span class="example">
+                由于乘方的结果叫幂，相乘的结果叫积，因此这个口诀也被简称为幂的积等于积的幂，同理，积的幂也等于幂的积。
+              </span>
+              <br />
+              <span class="example">
+                例题：（2x）^4 ＝？因为2x
+                是2和x的乘积，积的幂等于幂的积，因此（2x）^4 ＝2^4 × x^4
+                ，由于2的4次方等于16，因此结果为16x 4。
+              </span>
             </p>
             <p>
               商的幂等于幂的商<br />
-              比如（3/x）^2
-              此题处理的是分数的乘方，商的幂等于幂的商，直接把2次方扔到分子分母上，得到
-              3^2 / x^2 = 9/x^2
+              <span class="example">
+                例题：（3/x）^2
+                此题处理的是分数的乘方，商的幂等于幂的商，直接把2次方扔到分子分母上，得到
+                3^2 / x^2 = 9/x^2
+              </span>
             </p>
             <p>
               幂的乘方，底数不变，指数相乘。<br />
-              <span class="example"> 示例：（a^m）^n ＝a^mn </span> <br />
-              <span>
-                题型：（4y^2 ）^3
+              <span class="formula"> 公式：（a^m）^n ＝a^mn </span> <br />
+              <span class="example">
+                例题：（4y^2 ）^3
                 ＝？解决问题的关键是要把系数4搞清楚，要知道4y^2 ＝4 × y × y
                 ，所以y 的指数2，这个2是y
                 自我相乘的次数，跟系数4没关系，但是整个算式的3次方，既是4的3次方，也是y2
@@ -103,9 +111,9 @@ import { ref } from "vue";
 .app {
   width: 375px;
   height: 100%;
+  overflow-y: scroll;
 }
 .note-wrapper {
-  height: 100%;
   padding: 20px;
   letter-spacing: 1.5px;
   text-align: justify;
@@ -116,8 +124,8 @@ h2 {
   /* rgb(247, 17, 93) */
   color: rgb(238, 32, 101);
   padding: 0 0 6px 0;
-  margin-bottom: 10px;
-  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+  border-bottom: 3px solid rgb(226, 79, 128);
 }
 p {
   font-size: 16px;
@@ -140,7 +148,7 @@ hr {
   margin: 10px 0;
 }
 
-.example {
+.formula {
   display: inline-block;
   width: 100%;
   padding: 15px;
@@ -148,6 +156,20 @@ hr {
   color: rgb(66, 185, 131);
   background-color: #f8f8f8;
   margin: 10px 0;
+}
+.example {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+.example::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 14px;
+  vertical-align: text-top;
+  background-color: rgb(255, 0, 0);
 }
 .source-wrapper {
   margin-bottom: 20px;
