@@ -32,7 +32,7 @@
           <h2>Note 2</h2>
           <div>
             <p>
-              同底数幂相乘，底数不变，指数相加。
+              同底数幂相乘，底数不变，指数相加。<br/>
               <span class="formula">
                 公式：\(a^m \ × \ a^n \ = \ a^{m+n} \)
               </span>
@@ -162,7 +162,7 @@
             </p>
 
             <p>
-              &nbsp算术平方根必须是正数或者0。
+              算术平方根必须是正数或者0。<br />
               <span class="example">
                 例题：\(\sqrt{a^2} \ = \ ? \ \) ，这个题目让我们求的是\( \ a^2 \
                 \)
@@ -176,15 +176,17 @@
                 \ge 0 \\ -a & a &lt 0 \end{cases}\)
               </span>
               <span class="example">
-                例题：\(\sqrt{(3-x)^2} \ = \ ? \ \) ，如果3－x ≥ 0，开出来的结果就是3－x ，如果3－x ＜0呢，开出来就是－（3－x ），也就是x －3，我们需要对以上两个不等式进行化简从而确定x的取值范围，即：<br/>
-                \(\sqrt{(3-x)^2} \ = \ |3-x| = \begin{cases} 3-x \ge 0,3-x; \\ 3-x &lt 0,x-3. \end{cases}\) <br />
+                例题：\(\sqrt{(3-x)^2} \ = \ ? \ \) ，如果3－x ≥
+                0，开出来的结果就是3－x ，如果3－x ＜0呢，开出来就是－（3－x
+                ），也就是x
+                －3，我们需要对以上两个不等式进行化简从而确定x的取值范围。即：<br />
+                \(\sqrt{(3-x)^2} \ = \ |3-x| = \begin{cases} 3-x \ge 0,3-x; \\
+                3-x &lt 0,x-3. \end{cases}\) <br />
                 由 \(3-x \ge 0 \) 得，\(x \le 3 \), <br />
                 由 \(3-x &lt 0 \) 得，\(x > 3 \),<br />
-                即：<br/>
-                \(\begin{cases} x \le 3 & \sqrt{(3-x)^2}=3-x; \\ x \ge 3 & \sqrt{(3-x)^2}=x-3. \end{cases} \)
-
-
-
+                即：<br />
+                \( \ \begin{cases} x \le 3 & \sqrt{(3-x)^2}=3-x; \\ x \ge 3 &
+                \sqrt{(3-x)^2}=x-3. \end{cases} \)
               </span>
             </p>
           </div>
