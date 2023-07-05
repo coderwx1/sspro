@@ -83,9 +83,9 @@
             <p>
               商的幂等于幂的商。<br />
               <span class="example">
-                例题：<i class="fraction-fz">\( ({3 \over x }) ^2 \)，</i>
+                例题：<i class="fz-19">\( ({3 \over x }) ^2 \)，</i>
                 此题处理的是分数的乘方，商的幂等于幂的商，直接把2次方扔到分子分母上，得到:
-                <i class="fraction-fz">
+                <i class="fz-19">
                   \({3^2 \over x^2} = {9 \over x^2} \)
                 </i>
               </span>
@@ -202,6 +202,33 @@
             </span>
           </div>
         </li>
+
+
+
+         <li>
+          <h2>Note 6</h2>
+          <div>
+            <p>
+              根号里不能为负数 <br/>
+               <span class="example">
+                例题：化简<i class="fz-22">\(\sqrt{-{ b^2 \over a}} \)</i>，其中<i class="example-question">b &lt 0</i><br>
+                分析：b 虽然是负数，但是b 经过平方以后，那肯定就是正数了；要想让这个根式有意义，只有a 是负数时，根号里面的内容才可能大于等于0，这个根式才可能成立。因此，我们就得到了a 的取值范围是 <i class="example-question">a &lt 0</i> <br>
+                解题过程：我们先把分子分母的部分独立拆分出来，得到：<i class="fz-22">\(\sqrt{-{ b^2 \over a}}\) = \({\sqrt {b^2} \over {\sqrt {-a}}}  \) </i>，再把分子开根号出来，得到：<i class="example-question"> | b | </i>，原式 = <i class="fz-22">\( | \ b \ | \over \sqrt {-a} \) </i>
+                 为了消去分母上的根号，需要在分子分母同时乘以 <i class="fz-22">\( \sqrt {-a} \)，</i>得到：<br> <i class="fz-22"> \(\sqrt{-{ b^2 \over a}} \) = \( -b \sqrt {-a} \over \sqrt {(-a)^2}\) = \( -b \sqrt {-a} \over -a \)，</i>消去分子分母的负号，得到：<br><i class="fz-22">\(\sqrt{-{ b^2 \over a}} \) = \( b \sqrt {-a} \over a \)</i>
+              </span>
+            </p>
+          </div>
+          <div class="divider-wrapper">
+            <div class="divider">
+              <i class="note-count">6</i>
+            </div>
+          </div>
+          <div class="source-wrapper">
+            <span class="source-content">
+              Note 6 来源：《学好数学并不难》上册 第十一章 第三节 根式的运算法则：乘除、乘方及化简方法
+            </span>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -271,8 +298,15 @@ p::before {
   background-color: #f8f8f8;
   margin: 10px 0;
 }
-.fraction-fz {
+.fz-19 {
   font-size: 19px;
+}
+.fz-20 {
+  font-size: 20px;
+}.fz-21 {
+  font-size: 21px;
+}.fz-22 {
+  font-size: 22px;
 }
 .example {
   display: inline-block;
