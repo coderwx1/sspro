@@ -212,9 +212,9 @@
               根号里不能为负数 <br/>
                <span class="example">
                 例题：化简<i class="fz-22">\(\sqrt{-{ b^2 \over a}} \)</i>，其中<i class="example-question">b &lt 0</i><br>
-                分析：b 虽然是负数，但是b 经过平方以后，那肯定就是正数了；要想让这个根式有意义，只有a 是负数时，根号里面的内容才可能大于等于0，这个根式才可能成立。因此，我们就得到了a 的取值范围是 <i class="example-question">a &lt 0</i> <br>
-                解题过程：我们先把分子分母的部分独立拆分出来，得到：<i class="fz-22">\(\sqrt{-{ b^2 \over a}}\) = \({\sqrt {b^2} \over {\sqrt {-a}}}  \) </i>，再把分子开根号出来，得到：<i class="example-question"> | b | </i>，原式 = <i class="fz-22">\( | \ b \ | \over \sqrt {-a} \) </i>
-                 为了消去分母上的根号，需要在分子分母同时乘以 <i class="fz-22">\( \sqrt {-a} \)，</i>得到：<br> <i class="fz-22"> \(\sqrt{-{ b^2 \over a}} \) = \( -b \sqrt {-a} \over \sqrt {(-a)^2}\) = \( -b \sqrt {-a} \over -a \)，</i>消去分子分母的负号，得到：<br><i class="fz-22">\(\sqrt{-{ b^2 \over a}} \) = \( b \sqrt {-a} \over a \)</i>
+                <i style="color:rgb(34, 162, 201);">分析：</i>b 虽然是负数，但是b 经过平方以后，那肯定就是正数了；要想让这个根式有意义，只有a 是负数时，根号里面的内容才可能大于等于0，这个根式才可能成立。因此，我们就得到了a 的取值范围是 <i class="example-question">a &lt 0</i> <br>
+                 <i style="color:rgb(233, 105, 0)">解题过程：</i>我们先把分子分母的部分独立拆分出来，得到：<i class="fz-22">\(\sqrt{-{ b^2 \over a}}\) = \({\sqrt {b^2} \over {\sqrt {-a}}}  \) </i>，再把分子开根号出来，得到：<i class="example-question"> | b | </i>，原式 = <i class="fz-22">\( | \ b \ | \over \sqrt {-a} \) ，</i>
+                 为了消去分母上的根号，需要在分子分母同时乘以 <i class="fz-22">\( \sqrt {-a} \)</i> <br> 得到：<br><br><i class="fz-22"> \(\sqrt{-{ b^2 \over a}} \) = \( -b \sqrt {-a} \over \sqrt {(-a)^2}\) = \( -b \sqrt {-a} \over -a \)</i> <br><br>消去分子分母的负号，得到：<br><br><i class="fz-22">\(\sqrt{-{ b^2 \over a}} \) = \( b \sqrt {-a} \over a \)</i>
               </span>
             </p>
           </div>
