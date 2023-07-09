@@ -206,7 +206,7 @@
 
 
          <li>
-          <h2>Note 6</h2>
+            <h2>Note 6</h2>
           <div>
             <p>
               根号里不能为负数 <br/>
@@ -229,6 +229,60 @@
             </span>
           </div>
         </li>
+
+
+        
+         <li>
+            <h2>Note 7</h2>
+          <div>
+            <p>
+              异分母分数的加(减法同理)<br/>
+              <span class="example">
+                方法：把每个分数的分子和分母乘以另一个分数的分母，即可化成同分母分数，最终当结果计算出来后，如果结果能化简成最简分数则要化简成最简分数！ <br>
+                <span style="display: inline-block; width:100%">  
+                  <i style="color:rgb(233, 105, 0);display: inline-block; margin: 6px 0;">
+                  示例：
+                  </i>
+                  <br>
+                  <i class="fz-22" style="display: inline-block; width:100%;text-align: center;">
+                    \( {1 \over 3 } + {2 \over 5} \) = \( {1 \times 5 \over 3 \times 5 } + {2 \times 3 \over 5 \times 3}  \) = \( 11 \over 15\)
+                  </i>
+                  <br>
+                </span>
+              </span>
+            </p>
+          </div>
+          <div class="divider-wrapper">
+            <div class="divider">
+              <i class="note-count">7</i>
+            </div>
+          </div>
+          <div class="source-wrapper" style="text-align: left;">
+            <span class="source-content">
+              Note 7 来源：https://www.shuxuele.com/fractions.html
+            </span>
+          </div>
+        </li>
+
+          <li>
+            <h2>Note 8</h2>
+          <div>
+            <p>
+              整式加减的化简，一般说来，由里往外，边去括号边合并为易。(<i style="color: red;font-size: 12px;font-weight: bold;">注:</i> 去括号时注意变号问题)<br/>
+            </p>
+          </div>
+          <div class="divider-wrapper">
+            <div class="divider">
+              <i class="note-count">8</i>
+            </div>
+          </div>
+          <div class="source-wrapper">
+            <span class="source-content" >
+              Note 8 来源：张维刚初一数学 整式的加减 添括号的方法、选择合适的运算顺序
+            </span>
+          </div>
+        </li>
+        
       </ul>
     </div>
   </div>
@@ -309,6 +363,7 @@ p::before {
   font-size: 22px;
 }
 .example {
+
   display: inline-block;
   font-size: 14px;
   vertical-align: middle;
